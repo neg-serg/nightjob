@@ -36,6 +36,7 @@ wrapper.overrideAttrs (_: {
   meta = {
     description = "Unattended GPU jobs: VRAM preflight, systemd runner, ROCm venv, morning report";
     homepage = "https://github.com/neg-serg/nightjob";
+    license = lib.licenses.mit;
     platforms = lib.platforms.linux;
     maintainers = [ ];
     mainProgram = "nightjob";
